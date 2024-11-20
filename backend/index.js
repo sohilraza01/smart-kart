@@ -12,7 +12,7 @@ app.use(cors());
 
 // Database Connection with Mongodb
 
-mongoose.connect("mongodb+srv://sohilraza:sohilraza@cluster0.yglab.mongodb.net/smart-cart?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect("mongodb+srv://username:<Password>@cluster0.yglab.mongodb.net/smart-cart?retryWrites=true&w=majority&appName=Cluster0");
 
 //API Creation
 
